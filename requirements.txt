@@ -1,0 +1,19 @@
+# Conversation AI - Requirements
+# Install with: pip install -r requirements.txt
+# Or with uv: uv pip install -r requirements.txt
+
+# LiveKit SDK and Agents Framework
+livekit>=1.0.0
+livekit-agents>=1.0.0
+livekit-plugins-silero>=1.0.0
+
+# Google Gemini LLM
+google-genai>=1.0.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# HTTP Client for Sarvam API
+aiohttp>=3.9.0
